@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-//Auth::routes();
+Auth::routes();
 
 Route::post('follow/{user}', 'FollowsController@store');
 
